@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official Privacy Policy for ExpiryGuard — Important Items Expiry Reminder Android application." />
+  <title>Privacy Policy | ExpiryGuard — Important Items Expiry Reminder</title>
+  <style>
+    :root {
+      --bg-page: #f4f7f9;
+      --bg-card: #ffffff;
+      --bg-subtle: #eef6f5;
+      --bg-highlight: #f8fafc;
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+      --brand-primary: #0d9488;
+      --brand-primary-dark: #0f766e;
+      --brand-navy: #1a263e;
+      --border-color: #e2e8f0;
+      --badge-bg: #ccfbf1;
+      --badge-text: #115e59;
+      --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+      --shadow-md: 0 10px 25px -5px rgba(15, 23, 42, 0.07), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+      --radius-lg: 16px;
+      --radius-md: 12px;
+      --radius-sm: 8px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-page: #0b1120;
+        --bg-card: #111c30;
+        --bg-subtle: #132a2e;
+        --bg-highlight: #162238;
+        --text-primary: #f1f5f9;
+        --text-secondary: #cbd5e1;
+        --text-muted: #94a3b8;
+        --brand-primary: #2dd4bf;
+        --brand-primary-dark: #5eead4;
+        --brand-navy: #0f172a;
+        --border-color: #1e293b;
+        --badge-bg: #134e4a;
+        --badge-text: #99f6e4;
+        --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.35);
+        --shadow-md: 0 12px 28px -6px rgba(0, 0, 0, 0.45);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-primary);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 3.5rem;
+    }
+
+    /* Header Banner */
+    .hero-header {
+      background: linear-gradient(135deg, #1a263e 0%, #0f3d4c 55%, #0d9488 100%);
+      color: #ffffff;
+      padding: 3.25rem 1.25rem 3.75rem;
+      text-align: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .hero-container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      color: #f0fdfa;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+
+    .hero-header h1 {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1rem, 2.2vw, 1.15rem);
+      color: rgba(255, 255, 255, 0.9);
+      font-weight: 500;
+      margin-bottom: 1.25rem;
+    }
+
+    .meta-bar {
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem 1.5rem;
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.85);
+      background: rgba(15, 23, 42, 0.32);
+      padding: 0.5rem 1.1rem;
+      border-radius: var(--radius-sm);
+    }
+
+    /* Main Content Layout */
+    .main-container {
+      max-width: 860px;
+      margin: -1.75rem auto 0;
+      padding: 0 1.1rem;
+    }
+
+    .policy-card {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      padding: 2.25rem 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero-header {
+        padding: 2.5rem 1rem 3rem;
+      }
+      .policy-card {
+        padding: 1.5rem 1.2rem;
+        border-radius: var(--radius-md);
+      }
+    }
+
+    /* Quick Summary Grid */
+    .summary-banner {
+      background-color: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--brand-primary);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.35rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .summary-banner h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.65rem;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.85rem;
+      margin-top: 0.85rem;
+    }
+
+    .summary-item {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 0.85rem 1rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .summary-item strong {
+      display: block;
+      font-size: 0.88rem;
+      color: var(--brand-primary);
+      margin-bottom: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    .summary-item span {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+    }
+
+    /* Typography & Sections */
+    .section {
+      padding-top: 1.65rem;
+      margin-top: 1.65rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .section:first-of-type {
+      padding-top: 0;
+      margin-top: 0;
+      border-top: none;
+    }
+
+    .section-number {
+      display: inline-block;
+      background-color: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 0.15rem 0.55rem;
+      border-radius: 6px;
+      margin-right: 0.5rem;
+      vertical-align: middle;
+    }
+
+    h2.section-title {
+      font-size: 1.28rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.85rem;
+      line-height: 1.35;
+    }
+
+    h3 {
+      font-size: 1.02rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 1.15rem 0 0.45rem;
+    }
+
+    p {
+      color: var(--text-secondary);
+      font-size: 0.97rem;
+      margin-bottom: 0.85rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.35rem;
+      margin-bottom: 0.95rem;
+      color: var(--text-secondary);
+      font-size: 0.96rem;
+    }
+
+    li {
+      margin-bottom: 0.45rem;
+    }
+
+    li strong {
+      color: var(--text-primary);
+    }
+
+    a {
+      color: var(--brand-primary);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      font-weight: 500;
+      word-break: break-word;
+    }
+
+    a:hover,
+    a:focus {
+      color: var(--brand-primary-dark);
+    }
+
+    /* Permissions Table */
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      margin: 1rem 0;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th,
+    td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border-color);
+      vertical-align: top;
+    }
+
+    th {
+      background-color: var(--bg-highlight);
+      color: var(--text-primary);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    td {
+      color: var(--text-secondary);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.84rem;
+      background-color: var(--bg-highlight);
+      color: var(--text-primary);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      border: 1px solid var(--border-color);
+    }
+
+    /* Contact Box */
+    .contact-box {
+      background-color: var(--bg-highlight);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.4rem;
+      margin-top: 1rem;
+    }
+
+    .contact-email {
+      font-weight: 700;
+      color: var(--brand-primary);
+    }
+
+    /* Footer */
+    footer {
+      max-width: 860px;
+      margin: 1.5rem auto 0;
+      padding: 0 1.1rem;
+      text-align: center;
+      font-size: 0.86rem;
+      color: var(--text-muted);
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+        color: #000000;
+        padding: 0;
+      }
+      .hero-header {
+        background: none;
+        color: #000000;
+        padding: 1rem 0;
+        border-bottom: 2px solid #000000;
+      }
+      .hero-subtitle,
+      .meta-bar,
+      .app-badge {
+        color: #000000;
+        background: none;
+        border: none;
+      }
+      .main-container {
+        margin-top: 1rem;
+      }
+      .policy-card {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero-header">
+    <div class="hero-container">
+      <div class="app-badge">Official Privacy Policy</div>
+      <h1>ExpiryGuard — Important Items Expiry Reminder</h1>
+      <p class="hero-subtitle">Transparent, Local-First Privacy Protection for YourTracked Items &amp; Reminders</p>
+      <div class="meta-bar">
+        <span><strong>Effective Date:</strong> September 30, 2026</span>
+        <span><strong>Last Updated:</strong> September 30, 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <article class="policy-card">
+
+      <div class="summary-banner" aria-label="Privacy Summary">
+        <h2>Privacy at a Glance</h2>
+        <p>
+          <strong>ExpiryGuard — Important Items Expiry Reminder</strong> ("ExpiryGuard", "we", "our", or "the App") is designed from the ground up as a local-first utility. We do not operate any backend servers, we do not require user accounts or sign-ins, and we never upload your tracked items, notes, or photos to any server.
+        </p>
+        <div class="summary-grid">
+          <div class="summary-item">
+            <strong>No Accounts or Cloud</strong>
+            <span>No registration, login, or developer cloud database is used.</span>
+          </div>
+          <div class="summary-item">
+            <strong>100% Local Item Data</strong>
+            <span>Items, dates, notes, history, and settings stay strictly on your device.</span>
+          </div>
+          <div class="summary-item">
+            <strong>Private Item Photos</strong>
+            <span>Photos stay in private on-device app storage and are never uploaded.</span>
+          </div>
+          <div class="summary-item">
+            <strong>Google AdMob Ads</strong>
+            <span>AdMob may collect standard device and ad identifiers to display ads.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 1 -->
+      <section class="section" id="introduction">
+        <h2 class="section-title"><span class="section-number">01</span>Introduction &amp; Scope</h2>
+        <p>
+          This Privacy Policy explains how information is handled when you install and use the <strong>ExpiryGuard — Important Items Expiry Reminder</strong> Android application. We value your privacy and are committed to being fully transparent about what data stays on your device and what limited technical information is processed by third-party advertising services integrated into the App.
+        </p>
+        <p>
+          By using ExpiryGuard, you agree to the practices described in this Privacy Policy.
+        </p>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="section" id="local-data">
+        <h2 class="section-title"><span class="section-number">02</span>Information You Create &amp; Store Locally on Your Device</h2>
+        <p>
+          ExpiryGuard does <strong>not</strong> require you to create an account, sign in, or provide your name, email address, phone number, or billing details. All core functionality operates locally on your Android device:
+        </p>
+        <ul>
+          <li><strong>Tracked Expiry Items:</strong> Item names, categories (Food, Medicine, Documents, Warranties, Subscriptions, Other), expiry dates, recurring renewal intervals (Weekly, Monthly, Yearly), and optional text notes that you enter.</li>
+          <li><strong>Reminder Configurations:</strong> Preset reminder timings (same day, 1, 3, 7, 14, or 30 days before expiry) and custom reminder configurations (custom number of days before expiry and specific notification time).</li>
+          <li><strong>Item History &amp; Archive:</strong> Records of items that have expired, been marked as completed/used, renewed, or moved to history.</li>
+          <li><strong>App Preferences:</strong> Your local preferences (such as Light/Dark/System theme mode, global notification toggle, default reminder timing, automatic recurring rollover preference, and "Expiring Soon" day threshold) stored on your device using Android Jetpack DataStore.</li>
+        </ul>
+        <p>
+          All of the information listed above is stored exclusively in a local SQLite/Room database and local preferences inside ExpiryGuard's private application storage on your device. <strong>We do not have a backend server, and we cannot view, access, collect, or transmit your tracked items or notes.</strong>
+        </p>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="section" id="photos-and-media">
+        <h2 class="section-title"><span class="section-number">03</span>Item Photos, Camera &amp; Photo Picker Usage</h2>
+        <p>
+          ExpiryGuard allows you to optionally attach a photo to an item (for example, a photo of a product label, receipt, medicine box, or warranty card).
+        </p>
+        <ul>
+          <li><strong>Zero-Permission Photo Selection &amp; Capture:</strong> When you choose <em>Gallery Photo</em> or <em>Take Photo</em>, ExpiryGuard uses the official Android system Photo Picker (<code>PickVisualMedia</code>) or delegates capture to your device's built-in system Camera app. ExpiryGuard does not request broad access to your entire photo library or external storage.</li>
+          <li><strong>Strictly Local Storage:</strong> Any photo you attach is compressed and saved locally inside the App's private internal storage directory (<code>item_photos</code>) on your device.</li>
+          <li><strong>No External Transmission:</strong> Item photos are never uploaded to any cloud server, never shared with third parties, and never used for analytics or advertising.</li>
+          <li><strong>Automatic Cleanup:</strong> When you remove a photo from an item, permanently delete a record, use the <em>Delete All Active &amp; History Items</em> option in Settings, or uninstall the App, the associated local photo files are permanently deleted from your device.</li>
+        </ul>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="section" id="notifications-and-permissions">
+        <h2 class="section-title"><span class="section-number">04</span>Local Notifications, Reminders &amp; Device Permissions</h2>
+        <p>
+          ExpiryGuard schedules expiry alerts directly on your device using Android's system alarm and notification services. Notification scheduling and delivery happen entirely on your device without using remote push notification servers.
+        </p>
+        <p>
+          ExpiryGuard requests only the minimum Android permissions required for its features:
+        </p>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Permission</th>
+                <th>Purpose in ExpiryGuard</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>POST_NOTIFICATIONS</code></td>
+                <td>Allows the App (on Android 13 and above) to display local reminder notifications when your tracked items are approaching their expiry date or expire. You can grant or revoke this permission at any time in Android Settings.</td>
+              </tr>
+              <tr>
+                <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+                <td>Allows the App to automatically restore and reschedule your active local expiry alarms after your phone or tablet restarts, ensuring you do not miss scheduled reminders.</td>
+              </tr>
+              <tr>
+                <td><code>INTERNET</code> &amp; <code>ACCESS_NETWORK_STATE</code></td>
+                <td>Used strictly by the Google Mobile Ads (AdMob) SDK to check network availability and load banner and interstitial advertisements. ExpiryGuard does not use your internet connection to transmit your personal item database.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="section" id="advertising-admob">
+        <h2 class="section-title"><span class="section-number">05</span>Third-Party Advertising (Google AdMob)</h2>
+        <p>
+          ExpiryGuard is offered as a free application supported by advertisements provided by <strong>Google AdMob (Google Mobile Ads SDK)</strong>. The App displays banner ads and occasional frequency-capped interstitial ads.
+        </p>
+        <h3>Information Collected by Google AdMob</h3>
+        <p>
+          To display, measure, and improve advertisements and prevent fraud, the integrated Google Mobile Ads SDK may automatically collect and process certain device and usage data directly from your device, including:
+        </p>
+        <ul>
+          <li><strong>Device &amp; Advertising Identifiers:</strong> Your device's Google Advertising ID (AAID) or similar mobile identifiers.</li>
+          <li><strong>IP Address &amp; Approximate Location:</strong> Your device's IP address, which may be used to estimate general/coarse geographic location (such as city or country).</li>
+          <li><strong>Device &amp; Diagnostic Information:</strong> Device model, operating system version, screen dimensions, language setting, mobile carrier, and app performance/crash diagnostics related to ad rendering.</li>
+          <li><strong>Ad Interaction Data:</strong> Information about advertisements shown in the App (such as ad impressions and whether you tapped on an advertisement).</li>
+        </ul>
+        <p>
+          <strong>Important:</strong> Google AdMob does <em>not</em> have access to the item names, expiry dates, notes, categories, or photos you enter inside ExpiryGuard.
+        </p>
+        <h3>Managing Personalized Ads &amp; Opt-Out Controls</h3>
+        <p>
+          You can control or reset your mobile advertising identifier and opt out of personalized ads at any time in your Android device settings:
+        </p>
+        <ul>
+          <li>Open your device's <strong>Settings</strong> app &rarr; <strong>Google</strong> &rarr; <strong>All services</strong> (or <strong>Privacy &amp; security</strong>) &rarr; <strong>Ads</strong>.</li>
+          <li>Select <strong>Reset advertising ID</strong> or <strong>Delete advertising ID</strong> to limit ad tracking and personalization.</li>
+        </ul>
+        <h3>Google Privacy Policy &amp; Partner Disclosures</h3>
+        <p>
+          All data collected by the Google Mobile Ads SDK is governed by Google's own privacy policies. To learn more about how Google processes data from apps that use its services, please review:
+        </p>
+        <ul>
+          <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+          <li>How Google uses information from sites or apps that use our services: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/partner-sites</a></li>
+        </ul>
+      </section>
+
+      <!-- Section 6 -->
+      <section class="section" id="data-retention-and-control">
+        <h2 class="section-title"><span class="section-number">06</span>Data Retention, Deletion &amp; Your Controls</h2>
+        <p>
+          Because all item records, photos, reminders, and preferences are stored locally on your device, you have complete and immediate control over your data at all times:
+        </p>
+        <ul>
+          <li><strong>Edit or Delete Individual Items:</strong> You can edit any item, remove its attached photo, cancel its scheduled reminder, or delete it at any time inside the App.</li>
+          <li><strong>Clear History Log:</strong> You can permanently delete all archived/history records by going to <strong>Settings &rarr; Clear History Log</strong> or tapping the clear button on the History screen.</li>
+          <li><strong>Delete All App Data:</strong> You can wipe all active items, history records, scheduled alarms, and saved item photos in one tap via <strong>Settings &rarr; Delete All Active &amp; History Items</strong>.</li>
+          <li><strong>Uninstalling the App:</strong> Uninstalling ExpiryGuard from your Android device immediately and permanently removes the local database, all saved item photos, preferences, and scheduled reminders from your device.</li>
+        </ul>
+        <p>
+          Please note that because we do not store backups of your data on external servers, once you delete your data or uninstall the App without an OS-level device backup, your items cannot be recovered by us.
+        </p>
+      </section>
+
+      <!-- Section 7 -->
+      <section class="section" id="data-security">
+        <h2 class="section-title"><span class="section-number">07</span>Data Security</h2>
+        <p>
+          Your tracked items, notes, and photos are stored inside Android's sandboxed application storage directory, which is protected by the Android operating system and inaccessible to other apps on non-rooted devices. Any network requests made by the Google Mobile Ads SDK are transmitted over encrypted HTTPS (TLS) connections. We recommend protecting your mobile device with a strong screen lock (PIN, password, pattern, or biometric authentication).
+        </p>
+      </section>
+
+      <!-- Section 8 -->
+      <section class="section" id="childrens-privacy">
+        <h2 class="section-title"><span class="section-number">08</span>Children's Privacy</h2>
+        <p>
+          ExpiryGuard is a general-audience household and personal organization utility and is not directed to children under the age of 13 (or the minimum age of digital consent in your jurisdiction). We do not knowingly collect any personal information from children. If you are a parent or guardian and have questions regarding this policy, please contact us at the email address provided below.
+        </p>
+      </section>
+
+      <!-- Section 9 -->
+      <section class="section" id="international-privacy-rights">
+        <h2 class="section-title"><span class="section-number">09</span>Your Privacy Rights (GDPR, UK GDPR, CCPA / CPRA)</h2>
+        <p>
+          Depending on your location (including the European Economic Area, the United Kingdom, Switzerland, Brazil, or US states such as California), you may have legal rights regarding your personal information, including the right to know, access, correct, delete, or restrict processing of personal data, and the right to opt out of targeted advertising.
+        </p>
+        <ul>
+          <li><strong>On-Device App Data:</strong> Since we do not collect, store, or have access to your local ExpiryGuard items, notes, or photos on any server, you can exercise full access, correction, and deletion rights directly within the App at any time.</li>
+          <li><strong>Advertising Data:</strong> With respect to device identifiers and ad data processed by Google AdMob, you may manage your consent preferences where applicable and reset or delete your Android Advertising ID in your device settings as described in Section 5.</li>
+        </ul>
+      </section>
+
+      <!-- Section 10 -->
+      <section class="section" id="changes-to-policy">
+        <h2 class="section-title"><span class="section-number">10</span>Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time to reflect improvements to ExpiryGuard or changes in legal, regulatory, or Google Play policy requirements. When we post changes to this page, we will revise the <strong>"Last Updated"</strong> date at the top of this Privacy Policy. We encourage you to review this page periodically.
+        </p>
+      </section>
+
+      <!-- Section 11 -->
+      <section class="section" id="contact-us">
+        <h2 class="section-title"><span class="section-number">11</span>Contact Us</h2>
+        <p>
+          If you have any questions, concerns, or requests regarding this Privacy Policy or how ExpiryGuard handles your privacy, please contact us at:
+        </p>
+        <div class="contact-box">
+          <p><strong>Application:</strong> ExpiryGuard — Important Items Expiry Reminder</p>
+          <p><strong>Support &amp; Privacy Contact Email:</strong> <span class="contact-email">[ahmadraza90241@gmail.com]</span></p>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ExpiryGuard — Important Items Expiry Reminder. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
